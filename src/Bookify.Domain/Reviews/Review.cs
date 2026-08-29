@@ -1,8 +1,6 @@
 ﻿using Bookify.Domain.Abstractions;
-using Bookify.Domain.Apartments;
 using Bookify.Domain.Bookings;
 using Bookify.Domain.Reviews.Events;
-using Bookify.Domain.Users;
 
 namespace Bookify.Domain.Reviews;
 

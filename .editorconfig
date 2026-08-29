@@ -368,7 +368,14 @@ dotnet_diagnostic.S6605.severity = none
 dotnet_diagnostic.S1144.severity = none
 
 # IDE0008: Use explicit type instead of 'var'.
-# dotnet_diagnostic.IDE0008.severity = none
+dotnet_diagnostic.IDE0008.severity = none
 
 # S2325: Make 'x' a static method.
 dotnet_diagnostic.S2325.severity = none
+
+# S6672: Update logger to use its enclosing type.
+dotnet_diagnostic.S6672.severity = none
+
+
+# S2139: Either log this exception and handle it, or rethrow it with some contextual information..
+dotnet_diagnostic.S2139.severity = none
