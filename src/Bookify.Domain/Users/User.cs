@@ -5,6 +5,8 @@ namespace Bookify.Domain.Users;
 
 public sealed class User : Entity
 {
+    private User() { } // Ef core fix for rich domain models
+
     private User(Guid id, FirstName firstName, LastName lastName, Email email)
         : base(id)
     {

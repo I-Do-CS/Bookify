@@ -5,6 +5,8 @@ namespace Bookify.Domain.Apartments;
 
 public sealed class Apartment : Entity
 {
+    private Apartment() { } // Ef core fix for rich domain models
+
     public Apartment(
         Guid id,
         Name name,

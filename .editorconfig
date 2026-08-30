@@ -379,3 +379,9 @@ dotnet_diagnostic.S6672.severity = none
 
 # S2139: Either log this exception and handle it, or rethrow it with some contextual information..
 dotnet_diagnostic.S2139.severity = none
+
+# S6964: Value type property used as input in a controller action should be nullable, required or annotated with the JsonRequiredAttribute to avoid under-posting.
+dotnet_diagnostic.S6964.severity = none
+
+# S125: Remove this commented out code.
+dotnet_diagnostic.S125.severity = none

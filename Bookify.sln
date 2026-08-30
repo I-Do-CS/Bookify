@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 18
-VisualStudioVersion = 18.9.12120.119 stable
+VisualStudioVersion = 18.9.12120.119
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{4E17805C-9182-47B6-9FCE-54CD5501DD68}"
 EndProject
@@ -16,6 +16,10 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Bookify.Application", "src\Bookify.Application\Bookify.Application.csproj", "{E4190176-3177-4046-AB00-CDBAA18A7C66}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Bookify.Infrastructure", "src\Bookify.Infrastructure\Bookify.Infrastructure.csproj", "{5050E826-D112-4412-9FC6-1DE885565D2B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Bookify.Api", "src\Bookify.Api\Bookify.Api.csproj", "{FF0FB55B-A0E9-4A8C-A7BF-48A67011A439}"
+EndProject
+Project("{E53339B2-1760-4266-BCC7-CA923CBCF16C}") = "docker-compose", "docker-compose.dcproj", "{81DDED9D-158B-E303-5F62-77A2896D2A5A}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -35,6 +39,14 @@ Global
 		{5050E826-D112-4412-9FC6-1DE885565D2B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5050E826-D112-4412-9FC6-1DE885565D2B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5050E826-D112-4412-9FC6-1DE885565D2B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FF0FB55B-A0E9-4A8C-A7BF-48A67011A439}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FF0FB55B-A0E9-4A8C-A7BF-48A67011A439}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FF0FB55B-A0E9-4A8C-A7BF-48A67011A439}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FF0FB55B-A0E9-4A8C-A7BF-48A67011A439}.Release|Any CPU.Build.0 = Release|Any CPU
+		{81DDED9D-158B-E303-5F62-77A2896D2A5A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{81DDED9D-158B-E303-5F62-77A2896D2A5A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{81DDED9D-158B-E303-5F62-77A2896D2A5A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{81DDED9D-158B-E303-5F62-77A2896D2A5A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -43,6 +55,7 @@ Global
 		{D1B79F01-B1AC-480D-BCDA-C1DEF7C3FC0C} = {4E17805C-9182-47B6-9FCE-54CD5501DD68}
 		{E4190176-3177-4046-AB00-CDBAA18A7C66} = {4E17805C-9182-47B6-9FCE-54CD5501DD68}
 		{5050E826-D112-4412-9FC6-1DE885565D2B} = {4E17805C-9182-47B6-9FCE-54CD5501DD68}
+		{FF0FB55B-A0E9-4A8C-A7BF-48A67011A439} = {4E17805C-9182-47B6-9FCE-54CD5501DD68}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {CCE19643-DCF7-4D3F-9754-E48E61463841}

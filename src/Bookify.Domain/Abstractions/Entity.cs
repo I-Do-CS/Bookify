@@ -4,6 +4,8 @@ public abstract class Entity
 {
     private readonly List<IDomainEvent> _domainEvents = [];
 
+    protected Entity() { } // Ef core fix for rich domain models
+
     protected Entity(Guid id)
     {
         Id = id;

@@ -7,6 +7,8 @@ namespace Bookify.Domain.Bookings;
 
 public sealed class Booking : Entity
 {
+    private Booking() { } // Ef core fix for rich domain models
+
     private Booking(
         Guid id,
         Guid apartmentId,

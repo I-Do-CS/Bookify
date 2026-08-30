@@ -6,6 +6,8 @@ namespace Bookify.Domain.Reviews;
 
 public sealed class Review : Entity
 {
+    private Review() { } // Ef core fix for rich domain models
+
     private Review(
         Guid id,
         Guid apartmentId,
