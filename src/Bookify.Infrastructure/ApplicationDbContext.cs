@@ -29,7 +29,7 @@ public sealed class ApplicationDbContext : DbContext, IUnitOfWork
     {
         try
         {
-            var result = await base.SaveChangesAsync(cancellationToken);
+            var result = await base.SaveChangesAsync(acceptAllChangesOnSuccess, cancellationToken);
 
             await PublishDomainEventAsync();
 
